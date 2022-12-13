@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="styles/about.css">
+</head>
+<body>
+
+<h1 id="title"><a href="index.html">carlosjalves</a></h1>
+<div id="list">
+    <a href="about.html" style="text-decoration-line: underline; color: lime;">About</a>
+    <a href="work.html">Work</a>
+</div>
+
+<span class="draggable" id="drag1" draggable="true" ondragstart="drag(event)">Carlos</span>
+<span class="draggable" id="drag2" draggable="true" ondragstart="drag(event)">Amarante</span>
+<span class="draggable" id="drag3" draggable="true" ondragstart="drag(event)">Design</span>
+<span class="draggable" id="drag4" draggable="true" ondragstart="drag(event)">learned</span>
+<span class="draggable" id="drag5" draggable="true" ondragstart="drag(event)">perfectionist</span>
+
+<div id="about-text">
+    Hello world! My name is
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    , I'm 22 years old and I live in the charming city of
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    . I've completed the Bachelor's Degree in
+    <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     and Multimedia at the Faculty of Sciences and Technology of the University of Coimbra, where I
+    <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     the principles of Design and since then I'm interested in learning more and more. I describe myself as a hard worker, ambitious,
+    <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     and motivated to improve more and more!
+    <div id="social">Complete the text to access my social networks</div>
+</div>
+
+<!--
+<div id="social" class="hide">
+    <h3>Well Done!</h3>
+</div>
+
+
+
+This is a sample
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+and
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+sentence.
+-->
+
+<script src="scripts/about.js"></script>
+
+</body>
+</html>

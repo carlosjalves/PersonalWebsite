@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+html{
+    cursor: url("../data/cursor-face.png") 18 18, auto;
+}
+
+::selection {
+    background: lime;
+}
+
+body{
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+#title{
+    width: fit-content;
+    font-size: 32pt;
+    margin: 20px 0 0 20px;
+}
+
+#title a{
+    color: black;
+    text-decoration-line: none;
+}
+
+#list{
+    width: fit-content;
+    font-size: 18pt;
+    margin: 10px 0 0 20px;
+}
+
+#list a{
+    display: block;
+    width: fit-content;
+    margin: 0;
+    color: black;
+    text-decoration-line: none;
+}
+
+#list a:hover{
+    text-decoration-line: underline;
+    color: lime;
+    /*text-decoration-color: black;*/
+    cursor: pointer;
+}
+
+#title a:hover{
+    color: lime;
+    cursor: pointer;
+}
+
+#list a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#about-text{
+    text-align: justify;
+    letter-spacing: 0.02rem;
+    /*margin: auto;*/
+    font-size: 12pt;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#social{
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: lime;
+}
+
+.social-network{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-network svg:hover{
+    cursor: pointer;
+    fill: lime;
+}
+
+.draggable {
+    background-color:#00ff00;
+    padding:3px;
+    margin: 2px;
+    position: absolute;
+}
+
+.draggable:hover{
+    cursor: grab;
+}
+
+#div1,#div2,#div3,#div4,#div5 {
+    display:inline-block;
+    min-width:40px;
+    min-height:10px;
+    border-style:solid;
+    border-width:0;
+    border-bottom-width:2px;
+}
+
