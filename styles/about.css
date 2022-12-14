@@ -15,7 +15,7 @@ body{
 
 #title{
     width: fit-content;
-    font-size: 32pt;
+    font-size: 3vw;
     margin: 20px 0 0 20px;
 }
 
@@ -26,7 +26,7 @@ body{
 
 #list{
     width: fit-content;
-    font-size: 18pt;
+    font-size: 1.6vw;
     margin: 10px 0 0 20px;
 }
 
@@ -41,7 +41,6 @@ body{
 #list a:hover{
     text-decoration-line: underline;
     color: lime;
-    /*text-decoration-color: black;*/
     cursor: pointer;
 }
 
@@ -58,8 +57,7 @@ body{
 #about-text{
     text-align: justify;
     letter-spacing: 0.02rem;
-    /*margin: auto;*/
-    font-size: 12pt;
+    font-size: 1vw;
     width: 30%;
     position: absolute;
     top: 45%;
@@ -69,7 +67,7 @@ body{
 
 #social{
     text-align: center;
-    font-size: 14pt;
+    font-size: 1.29vw;
     margin-top: 20px;
     text-decoration-line: underline;
     text-decoration-color: lime;
