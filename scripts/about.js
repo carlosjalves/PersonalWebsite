@@ -42,6 +42,18 @@ function drop(ev){
     ev.target.parentNode.replaceChild(document.getElementById(data), ev.target);
     document.getElementById(data).className = "";
 
+    if(data.slice(-1) !== ev.target.id.slice(-1)){
+
+        let social = document.getElementById('social');
+        social.textContent = 'Wrong! Restarting...';
+        social.style.color = 'red';
+        social.style.textDecorationColor = 'red';
+
+        setTimeout(function(){
+            window.location.reload();
+        }, 2000);
+    }
+
     let draggable = document.getElementsByClassName('draggable');
     if (draggable.length === 0) {
         WellDone();
