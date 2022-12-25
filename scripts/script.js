@@ -18,6 +18,6 @@ function setup() {
 
 function draw() {
 
-    image(img,mouseX,mouseY,60,60);
+    image(img,mouseX,mouseY,80,80);
 
 }
