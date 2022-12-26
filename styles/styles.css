@@ -102,6 +102,7 @@ body{
     border-style:solid;
     border-width:0;
     border-bottom-width:2px;
+    padding-top: 10px;
 }
 
 #About #reload{
